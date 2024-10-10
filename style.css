@@ -6,7 +6,6 @@ table {
   border-collapse: collapse;
   margin: 20px auto;
 }
-
 td {
   width: 50px;
   height: 50px;
@@ -16,7 +15,9 @@ td {
 .circle {
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
+  background-image: url("./1568796798515.jfif");
+  background-size: cover;
   border-radius: 50%;
 }
 
@@ -24,5 +25,16 @@ td {
   width: 100%;
   height: 100%;
   background-color: blue;
+  background-image: url("./81pJUrECVzL.jpg");
+  background-size: contain;
   /* You can customize the square color */
+}
+
+.coin {
+  width: 100%;
+  height: 100%;
+  background-color: gold;
+  background-image: url("./1-Konvertable-Marka.jpg");
+  background-size: cover;
+  border-radius: 50%;
 }
